@@ -1,0 +1,28 @@
+:root {
+  font-family: '隶书';
+  line-height: 1.5;
+  color: #fff;
+  font-weight: bolder;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  box-sizing: border-box;
+  text-align: center;
+  background: url(./assets/background.jpg) no-repeat center center / 100% 130%;
+}
